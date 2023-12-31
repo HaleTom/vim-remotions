@@ -177,10 +177,10 @@ Remark: This `g:remotions_direction` setting is overridden by the `direction` op
 
 Some motions support `count` (e.g. `i`, `j`, `}`, etc.). E.g.: `2j` make the cursor go 2 lines below.
 
-When a motion is repeated via `;` or `,` the original count is not take into consideration.
+When a motion is repeated via `;` or `,` the original count is not taken into consideration.
 This is also the Vim default for the `f` and `t` motions.
 
-If you want that the original count is taken in consideration:
+If you want the original count to be taken in consideration:
 ```vim
 " Make the ; and , key also repeat the count when supported by the original move
 let g:remotions_repeat_count = 1
